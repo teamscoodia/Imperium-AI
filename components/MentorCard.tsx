@@ -114,8 +114,10 @@ export function MentorCard({
     hover:brightness-110
     
     before:absolute 
-    before:inset-[-9px]
-    before:border-[7px]
+    before:inset-[-7px]
+    before:border-[3px]
+    md:before:inset-[-9px]
+    md:before:border-[7px]
     before:border-t-[#8b6f47]
     before:border-l-[#8b6f47]
     before:border-r-[#3a2a15]
@@ -123,9 +125,11 @@ export function MentorCard({
     before:pointer-events-none
     before:shadow-[inset_2px_2px_4px_rgba(255,246,211,0.2)]
     
-    after:absolute 
-    after:inset-[-9px]
-    after:border-[2px]
+    after:absolute
+    after:inset-[-7px]
+    after:border-[3px] 
+    md:after:inset-[-9px]
+    md:after:border-[2px]
    after:border-t-[#c8a24c]
     after:border-l-[#c8a24c]
     after:border-r-[#6b5943]
