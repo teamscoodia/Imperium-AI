@@ -51,11 +51,12 @@ export function MentorCard({
         <button
           className="
             relative inline-flex items-center justify-center
+            button-gold-grain
             p-2 md:px-8 md:py-4
             font-cinzel text-sm md:text-lg uppercase tracking-[0.14em]
             text-transparent bg-clip-text
             bg-gradient-to-b from-[#fff6d3] via-[#f3d17a] to-[#b98a30]
-            border-[1.5px] border-[#c8a24c]
+            border-[2px] border-[#c8a24c]/50 
             bg-[#0d0c08]
             shadow-[inset_0_2px_1px_rgba(255,255,255,0.1),inset_0_-3px_6px_rgba(0,0,0,0.8),0_0_8px_rgba(185,138,48,0.25)]
             transition-all duration-500 ease-out
