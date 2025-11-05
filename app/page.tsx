@@ -72,7 +72,7 @@ export default function Page() {
         </header>
 
         {/* === Mentor Cards === */}
-        <div className="relative mt-6 flex w-full flex-col items-center justify-center gap-4 md:mt-10 md:flex-row md:items-stretch md:justify-center md:gap-0">
+        <div className="relative mt-6 flex w-full items-center justify-center md:mt-10 md:flex-row md:items-stretch md:justify-center md:gap-0">
           {mentors.map((m, i) => (
             <div
               key={m.name}
