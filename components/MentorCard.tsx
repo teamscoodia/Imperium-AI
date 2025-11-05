@@ -48,11 +48,9 @@ export function MentorCard({
         />
       </div>
       <div className="absolute inset-x-0 bottom-0 p-5 md:p-6 flex justify-center">
-        <button
+        {/* <button
           className="
             relative inline-flex items-center justify-center
-            button-gold-grain
-            plaque-btn
             p-2 md:px-8 md:py-4
             font-cinzel text-sm md:text-lg uppercase tracking-[0.14em]
             text-transparent bg-clip-text
@@ -76,7 +74,72 @@ export function MentorCard({
           onClick={(e) => e.preventDefault()}
         >
           {mentor.title}
-        </button>
+        </button> */}
+
+        <button
+  className="
+    relative inline-flex items-center justify-center
+    p-2 md:px-8 md:py-4
+    font-cinzel text-sm md:text-lg uppercase tracking-[0.14em]
+    text-[#c8a24c]
+    bg-gradient-to-b from-[#4a3820]/20 via-[#8b6f47]/40 to-[#b98a30]/30
+    
+    bg-black/80
+    
+    border-[2px] border-[#c8a24c]/40
+    bg-clip-padding
+    
+    shadow-[
+      0_0_0_1px_#4a3820,
+      0_0_0_4px_#8b6f47,
+      0_0_0_6px_#c8a24c,
+      0_0_0_8px_#8b6f47,
+      0_0_0_10px_#4a3820,
+      inset_0_0_0_1px_rgba(200,162,76,0.3),
+      0_4px_12px_rgba(0,0,0,0.8)
+    ]
+    
+    transition-all duration-300 ease-out
+    
+    hover:shadow-[
+      0_0_0_1px_#4a3820,
+      0_0_0_4px_#8b6f47,
+      0_0_0_6px_#d8b55c,
+      0_0_0_8px_#8b6f47,
+      0_0_0_10px_#4a3820,
+      inset_0_0_0_1px_rgba(200,162,76,0.4),
+      0_0_20px_rgba(240,198,111,0.4),
+      0_6px_16px_rgba(0,0,0,0.9)
+    ]
+    hover:brightness-110
+    
+    before:absolute 
+    before:inset-[-9px]
+    before:border-[7px]
+    before:border-t-[#8b6f47]
+    before:border-l-[#8b6f47]
+    before:border-r-[#3a2a15]
+    before:border-b-[#3a2a15]
+    before:pointer-events-none
+    before:shadow-[inset_2px_2px_4px_rgba(255,246,211,0.2)]
+    
+    after:absolute 
+    after:inset-[-9px]
+    after:border-[2px]
+   after:border-t-[#c8a24c]
+    after:border-l-[#c8a24c]
+    after:border-r-[#6b5943]
+    after:border-b-[#4a3820]
+    after:pointer-events-none
+    
+    focus:outline-none 
+    focus-visible:ring-2 
+    focus-visible:ring-[#d8b55c]/50
+  "
+  onClick={(e) => e.preventDefault()}
+>
+  <span className="relative z-10">{mentor.title}</span>
+</button>
       </div>
 
       <div className="absolute inset-0 rounded-2xl ring-1 ring-white/5 transition-shadow duration-300 group-hover:shadow-[0_0_0_2px_rgba(209,166,84,0.35),0_0_36px_8px_rgba(209,166,84,0.25)] group-focus:shadow-[0_0_0_2px_rgba(209,166,84,0.35),0_0_36px_8px_rgba(209,166,84,0.25)]" />
