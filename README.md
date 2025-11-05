@@ -27,14 +27,10 @@ Each card subtly fades at the edges, gently tilts on hover/tap, and glows with a
 
 
 ## Responsiveness
-
 - Designed mobile-first, adapts seamlessly to all screen sizes.  
 - Uses flex/grid layouts 
 - Tested across mobile and desktop browsers for consistency.
 
-
-## 📁 Deliverables
-
-- **Live Demo:** [https://imperium-ai-hall.vercel.app](https://imperium-ai-hall.vercel.app)  
-- **GitHub Repo:** [https://github.com/username/imperium-ai-mini](https://github.com/username/imperium-ai-mini)  
-- **Lighthouse Report:** `/docs/lighthouse.png`
+## Deliverables
+- Live Demo: https://imperium-ai-blond.vercel.app/  
+- GitHub Repo: https://github.com/teamscoodia/Imperium-  
