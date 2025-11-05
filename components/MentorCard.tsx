@@ -48,36 +48,33 @@ export function MentorCard({
         />
       </div>
       <div className="absolute inset-x-0 bottom-0 p-5 md:p-6 flex justify-center">
-      {/* <button
-        className="inline-flex items-center gap-2 p-2 md:px-6 md:py-4 text-white font-normal tracking-wide transition-colors duration-300 backdrop-blur-sm border-2 border-green-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 hover:bg-green-700/20"
-        onClick={(e) => e.preventDefault()}
-      >
-        {mentor.title}
-      </button> */}
+        <button
+          className="
+            relative inline-flex items-center justify-center
+            p-2 md:px-8 md:py-4
+            font-cinzel text-lg uppercase tracking-[0.15em] 
+            text-transparent bg-clip-text
+            bg-gradient-to-b from-[#fff6d3] via-[#f0c66f] to-[#b98a30]
+            border-[2.5px] border-[#b98a30]
+            rounded-sm
+            bg-[#0b0b09]
+            shadow-[inset_0_2px_2px_rgba(255,255,255,0.1),inset_0_-2px_6px_rgba(0,0,0,0.9),0_0_15px_rgba(185,138,48,0.25)]
+            transition-all duration-500 ease-out
+            hover:shadow-[0_0_20px_rgba(240,198,111,0.6),inset_0_-2px_6px_rgba(0,0,0,0.9)]
+            before:absolute before:inset-0 before:rounded-sm before:pointer-events-none
+            before:border before:border-[#f7e8b0]/50
+            before:shadow-[inset_0_0_15px_rgba(240,198,111,0.3)]
+            after:absolute after:inset-[3px] after:rounded-sm
+            after:bg-gradient-to-b after:from-[#1a1a12] after:via-[#0e0e08] after:to-[#050402]
+            after:opacity-60
+            focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f0c66f]/60
+          "
+          onClick={(e) => e.preventDefault()}
+        >
+          {mentor.title}
+        </button>
 
-      <button
-  className="
-    relative inline-flex items-center justify-center
-    p-2 md:px-6 md:py-4
-    font-cinzel text-sm md:text-lg uppercase tracking-[0.12em]
-    text-white
-    border-[3px] border-[#1e8c4c] 
-    shadow-[inset_0_1px_0_rgba(255,255,255,0.08),inset_0_-2px_6px_rgba(0,0,0,0.7),0_0_8px_rgba(0,255,128,0.15)]
-    transition-all duration-500 ease-out
-    hover:shadow-[0_0_16px_rgba(0,255,128,0.5),inset_0_-2px_6px_rgba(0,0,0,0.7)]
-    hover:text-[#c9ffd5]
-    before:absolute before:inset-0 before:pointer-events-none
-    before:border-[1px] before:border-[#50fa7b]/50
-    before:shadow-[inset_0_0_10px_rgba(80,250,123,0.25)]
-    after:absolute after:inset-[3px]
-    after:bg-gradient-to-b after:from-green-800 after:to-green-900
-    after:opacity-50
-    focus:outline-none focus-visible:ring-1 focus-visible:ring-green-400
-  "
-  onClick={(e) => e.preventDefault()}
->
-  {mentor.title}
-</button>
+      
 
       </div>
 
